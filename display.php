@@ -5,53 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Student Table</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f9fafb;
-            padding: 40px;
-        }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-            background-color: #fff;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        th,
-        td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #e5e7eb;
-        }
-
-        th {
-            background-color: #6366f1;
-            color: white;
-        }
-
-        tr:hover {
-            background-color: #f1f5f9;
-        }
-
-        img {
-            max-width: 60px;
-            border-radius: 8px;
-        }
-
-        @media (max-width: 600px) {
-
-            th,
-            td {
-                font-size: 14px;
-                padding: 10px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="displaystyle.css">
 </head>
 
 <body>
