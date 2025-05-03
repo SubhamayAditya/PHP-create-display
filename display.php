@@ -43,8 +43,8 @@
 
 
         </tbody>
+        <a href="index.php" class="insert-btn">Add Student</a>
     </table>
-    <button type="button"><a href="index.php">INSERT</a></button>
 
 </body>
 

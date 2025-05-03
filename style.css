@@ -62,5 +62,22 @@ body {
 }
 
 .form-container input[type="submit"]:hover {
-    background-color: #4f46e5;
+    background-color: #4659e5;
+}
+
+.display-btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #2dc40f;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.display-btn:hover {
+    background-color: #059669;
 }

@@ -43,3 +43,21 @@ img {
         padding: 10px;
     }
 }
+
+.insert-btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #3336ed;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 10%;
+    text-decoration: none;
+}
+
+.insert-btn:hover {
+    background-color: #054696;
+}

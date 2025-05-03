@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
 <body>
 
     <form method="post" action="" class="form-container" enctype="multipart/form-data">
-        <h2>Student Details</h2>
+        <h2>Add Student Details</h2>
 
         <div class="form-group">
             <input type="text" name="stuname" placeholder="Student Name">
@@ -57,6 +57,7 @@ if (isset($_POST['submit'])) {
             <input type="file" id="stuimg" name="stuimg">
         </div>
         <input type="submit" value="Submit" name="submit">
+        <a href="display.php" class="display-btn">Display</a>
     </form>
 
     <!-- <script>
@@ -65,7 +66,7 @@ if (isset($_POST['submit'])) {
         }
     </script> -->
 
-    <button type="button"><a href="display.php">DISPLAY</a></button>
+
 </body>
 
 </html>
